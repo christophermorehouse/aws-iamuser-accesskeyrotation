@@ -1,3 +1,6 @@
+Usage:
+This script was written with the assumption that it will be scheduled to run once everyday.
+
 The behavior of the script is as follows:
 1.	Check the current access key. If it is 76 days old create a new access key and email it to the specified email address. Otherwise, do nothing. This gives the user 2 weeks to switch access and secret keys.
 2.	Check the current active access keys. If any of them are 90 days old deactivate it.
